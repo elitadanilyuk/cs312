@@ -1,0 +1,17 @@
+body { 
+    font-family: Helvetica, monospace, serif;
+    background-image: url(../photos/coffee.jpg);
+    background-size: cover;
+}
+
+header h1 {
+    font-family: Arial, Helvetica, sans-serif; 
+    text-shadow: 0.5px 1.5px gray; 
+    color: rgb(73, 48, 31);
+}
+
+#ingredients {
+    font-family: monospace, Helvetica, serif;
+    font-style: oblique;
+    color: darkblue;
+}
