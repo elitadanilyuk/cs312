@@ -1,0 +1,42 @@
+body {
+  background-color: #AEB4A9;
+}
+
+#product-image {
+  width: 50%;
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+}
+
+h1, h2 {
+  color: #472d30;
+}
+
+#product-container {
+  background-color: #f8edeb;
+  width: 75%;
+  margin: auto
+}
+
+table {
+  margin-left: 20px;
+}
+
+.center {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: #233d4d;
+  line-height: 20px;
+  margin: 0px;
+}
