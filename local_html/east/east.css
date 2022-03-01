@@ -1,0 +1,40 @@
+* {
+  --blue: #2703A6;
+  --blue-dark: #200F8C;
+  --blue-navy: #141259;
+  --yellow-orange: #F2B705;
+  --orange: #F29F05;
+  --white: #FFFF;
+  --black-pure: #0000;
+}
+
+h1 {
+  color: var(--blue-dark);
+  font-family: monospace;
+  font-size: 35px;
+}
+
+main {
+  width: 800px;
+  margin: auto;
+}
+
+nav {
+  padding: 10px 20px;
+  background-color: var(--yellow-orange);
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--blue-navy);
+  padding: 10px 20px;
+}
+
+nav a:hover {
+  background-color: var(--orange);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
