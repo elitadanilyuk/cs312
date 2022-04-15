@@ -1,0 +1,36 @@
+* {
+  --blue: #2703A6;
+  --blue-dark: #200F8C;
+  --blue-navy: #141259;
+  --yellow-orange: #F2B705;
+  --orange: #F29F05;
+  --white: #FFFF;
+  --black-pure: #0000;
+}
+
+h1 {
+  color: var(--blue-dark);
+  font-family: monospace;
+  font-size: 35px;
+}
+
+@media (min-width: 800px) {
+  main {
+    position: absolute;
+    color: var(--blue-navy);
+  }
+}
+
+a {
+  color: var(--blue-navy);
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: var(--orange);
+}
+
+footer {
+  position:absolute;
+  bottom:0;
+}
